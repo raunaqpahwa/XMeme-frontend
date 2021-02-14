@@ -37,7 +37,7 @@ const PostMeme = () => {
                     <Spacer height='10px'/>
                     <Input placeholder='URL' name='url' onChange={handleChange} />
                     <Spacer height='10px'/>
-                    <Button type='submit'>Post Meme!</Button>
+                    <Button type='submit' backgroundColor='rgba(95,158,160, 0.8)'>Post Meme!</Button>
                     <Text>{message}</Text>
                 </form>
             </Flex>

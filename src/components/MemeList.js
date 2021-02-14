@@ -25,7 +25,7 @@ const MemeList = () => {
     return (
         <Container>
             <Heading margin='10px'>Latest Memes</Heading>
-            <Button onClick={getMemes} marginBottom='30px'>Click to fetch latest Memes</Button>
+            <Button onClick={getMemes} backgroundColor='rgba(95,158,160, 0.8)' marginBottom='30px'>Click to fetch latest Memes</Button>
             <Spacer />
             {
                 hasError ?

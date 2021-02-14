@@ -39,7 +39,7 @@ const MemeListItem = ({id, name, caption, url}) => {
                 <Spacer />
                 {isEdit ? <Input placeholder='Caption' name='caption' onChange={handleChange} /> : <Text>{caption}</Text>}
                 {isEdit ? <Input placeholder='URL' name='url' onChange={handleChange}/>  : <Image src={url} alt='Image of a meme' boxSize='400px'marginBottom='2px'/> }
-                {isEdit ? <Button onClick={handleSubmit} type='submit'>Change Meme</Button> : <Button onClick={handleClickEdit}>Edit Meme</Button>}
+                {isEdit ? <Button onClick={handleSubmit} backgroundColor='rgba(95,158,160, 0.8)' type='submit'>Change Meme</Button> : <Button onClick={handleClickEdit} backgroundColor='rgba(95,158,160, 0.8)'>Edit Meme</Button>}
             </Flex>
         </form>
     );
